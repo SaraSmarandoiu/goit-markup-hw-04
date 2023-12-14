@@ -132,6 +132,9 @@
 .title {
   background-color: var(--basic-color);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .footer {
@@ -165,7 +168,11 @@
   color: var(--basic-color);
   border: 1px solid transparent;
 }
-
+.filters-buttons:focus,
+.filters-buttons:hover {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
 img {
   display: block;
 }
@@ -279,6 +286,12 @@ img {
 .app-item {
   width: 360;
 }
+.app-item:focus,
+.app-item:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 .apps-name {
   padding: 32px 16px;
   border: 1px solid var(--list-color);
@@ -314,4 +327,15 @@ img {
   font-weight: 400;
   line-height: 1.5em;
   max-width: 264px;
+}
+.constumers-title {
+  color: var(--logo-color);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
