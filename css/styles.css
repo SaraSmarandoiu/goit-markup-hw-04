@@ -66,6 +66,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
 }
 .solutions {
   font-size: 56px;
@@ -374,7 +375,10 @@ img {
   justify-content: center;
   color: #8e8f99;
 }
-.client-link.link:hover,
+.client-link.link:hover {
+  border-color: #404bbf;
+  color: #404bbf;
+}
 .client-link.link:focus {
   border-color: #404bbf;
   color: #404bbf;
@@ -409,11 +413,12 @@ img {
   background-color: var(--brand-color);
   border-radius: 50%;
 }
-.social-media.link:hover,
+.social-media.link:hover {
+  background-color: var(--focus-color);
+}
 .social-media.link:focus {
   background-color: var(--focus-color);
 }
-
 .socials-icon {
   flex-shrink: 0;
   margin: 12px;
@@ -457,7 +462,9 @@ img {
   background-color: var(--brand-color);
   border-radius: 50%;
 }
-.social-media-footer.link:hover,
+.social-media-footer.link:hover {
+  background-color: #31d0aa;
+}
 .social-media-footer.link:focus {
   background-color: #31d0aa;
 }
@@ -466,6 +473,6 @@ img {
 }
 .app-link.link:hover,
 .app-link.link:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
