@@ -382,3 +382,53 @@ img {
   border-radius: 4px;
   margin-bottom: 8px;
 }
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+}
+.social-media.link {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand-color);
+  border-radius: 50%;
+}
+.social-media.link:hover,
+.social-media.link:focus {
+  background-color: var(--focus-color);
+}
+.socials-icon {
+  fill: var(--word-color);
+}
+.socials-icon {
+  flex-shrink: 0;
+  margin: 12px;
+}
+.footer {
+  display: flex;
+  align-items: baseline;
+}
+.social-media-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--basic-color);
+  margin-bottom: 16px;
+}
+
+.social-icons-footer.list {
+  display: flex;
+  gap: 16px;
+  margin-right: 120px;
+}
+.footer-div.container {
+  margin-left: 156px;
+}
