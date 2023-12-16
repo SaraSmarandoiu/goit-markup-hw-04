@@ -342,16 +342,14 @@ img {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
-  
 }
 .customers-list.list {
   display: flex;
   gap: 24px;
-  
 }
 .icon-client {
   width: 168px;
@@ -366,4 +364,12 @@ img {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+}
+.client-link.link:hover,
+.client-link.link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.icons {
+  fill: currentColor;
 }
