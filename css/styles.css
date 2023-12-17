@@ -414,6 +414,7 @@ img {
   height: 100%;
   background-color: var(--brand-color);
   border-radius: 50%;
+  justify-content: center;
 }
 .social-media.link:hover {
   background-color: var(--focus-color);
@@ -457,6 +458,7 @@ img {
 .social-media-footer.link {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   background-color: var(--brand-color);
