@@ -73,6 +73,7 @@ p {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin-inline: auto;
 }
 .solutions {
   font-size: 56px;
